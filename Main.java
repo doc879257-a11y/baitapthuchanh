@@ -4,11 +4,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("=== HỆ THỐNG QUẢN LÝ RẠP CHIẾU PHIM ===");
 
-        // 1. Tạo dữ liệu mẫu
         Phim phim1 = new Phim("Avengers: Endgame", "Hành động", 180, 13);
         PhongChieu phong1 = new PhongChieu("P01", "IMAX", 20); // Giảm số ghế để test dễ hơn
 
-        // Sử dụng Calendar để tạo thời gian cụ thể
         Calendar cal = Calendar.getInstance();
         cal.add(Calendar.HOUR, 2);
         Date thoiGianChieu = cal.getTime();
