@@ -9,7 +9,6 @@ public class Ghe {
         this.gia = gia;
     }
 
-    // Getter và Setter
     public String getSoGhe() { return soGhe; }
     public void setSoGhe(String soGhe) { this.soGhe = soGhe; }
 
@@ -32,3 +31,4 @@ public class Ghe {
         return thongTinGhe();
     }
 }
+
